@@ -15,6 +15,6 @@ Random numbers scored slightly better than expected! But the results are bad, so
 
 ####Other tasks:
  - [x] Scale features
-2) Impute missing data
+ - [ ] Identify and impute missing data
 
-[link1]: http://nbviewer.ipython.org/github/aguschin/kaggle/blob/master/forestCoverType_featuresEngineering.ipynb
+[link1]: http://nsbviewer.ipython.org/github/aguschin/kaggle/blob/master/forestCoverType_featuresEngineering.ipynb
