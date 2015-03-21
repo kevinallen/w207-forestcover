@@ -8,3 +8,9 @@ March 30<br/>Download the data and figure out how to import it into python/numpy
 
 Random numbers scored slightly better than expected!
 >Your submission scored 0.14319, which is not an improvement of your best score. Keep trying!
+
+####Feature engineering ideas:
+1) Try to smooth features by coming up with a measure of distance or adjacency.<br/>
+2) Adjust the vertical distance to hydrology measure by the elevation [reference][link1]
+
+[link1]: http://nbviewer.ipython.org/github/aguschin/kaggle/blob/master/forestCoverType_featuresEngineering.ipynb
