@@ -14,7 +14,8 @@ Random numbers scored slightly better than expected! But the results are bad, so
 2) Adjust the vertical distance to hydrology measure by the elevation. Combine vertical and horizontal distances to single measure. [Alexander Guschin][link1]
 
 ####Other tasks:
- - [x] Scale features
+ - [x] Standardize features
  - [ ] Identify and impute missing data
+ - [ ] Grid search over the various classifiers
 
 [link1]: http://nsbviewer.ipython.org/github/aguschin/kaggle/blob/master/forestCoverType_featuresEngineering.ipynb
