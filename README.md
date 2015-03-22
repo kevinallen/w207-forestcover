@@ -13,9 +13,39 @@ Random numbers scored slightly better than expected! But the results are bad, so
 1) Try to smooth features by coming up with a measure of distance or adjacency between plots.<br/>
 2) Adjust the vertical distance to hydrology measure by the elevation. Combine vertical and horizontal distances to single measure. [Alexander Guschin][link1]
 
+#####Most important features (determined from logistic regression coefficients)
+These features are probably the most important to look at for feature engineering ideas.<br/>
+ - Hillshade_3pm
+ - Hillshade_9am
+ - Hillshade_Noon
+ - Elevation
+ - Soil_Type36
+ - Soil_Type9
+ - Soil_Type28
+ - Soil_Type27
+ - Wilderness_Area4
+ - Soil_Type8
+ - Soil_Type25
+ - Soil_Type12
+ - Vertical_Distance_To_Hydrology
+ - Slope
+ - Horizontal_Distance_To_Fire_Points
+ - Horizontal_Distance_To_Hydrology
+ - Soil_Type40
+ - Wilderness_Area1
+ - Soil_Type37
+ - Soil_Type29
+ - Soil_Type30
+ - Wilderness_Area2
+ - Soil_Type26
+ - Soil_Type22
+ - Wilderness_Area3
+
 ####Other tasks:
  - [x] Standardize features
  - [ ] Identify and impute missing data
  - [ ] Grid search over the various classifiers
+ 
+
 
 [link1]: http://nsbviewer.ipython.org/github/aguschin/kaggle/blob/master/forestCoverType_featuresEngineering.ipynb
