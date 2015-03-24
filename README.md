@@ -45,6 +45,8 @@ These features are probably the most important to look at for feature engineerin
  - [x] Standardize features
  - [ ] Identify and impute missing data
  - [ ] Grid search over the various classifiers
+ - [ ] Look at implementing a kD-tree
+ - [ ] Cross-validation
  
 
 
