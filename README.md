@@ -12,8 +12,9 @@ Random numbers scored slightly better than expected! But the results are bad, so
 ####Feature engineering ideas:
 1. Try to smooth features by coming up with a measure of distance or adjacency between plots.<br/>
 2. Adjust the vertical distance to hydrology measure by the elevation. Combine vertical and horizontal distances to single measure. [Alexander Guschin][link1]
-3. Add in higher order terms for distances
+3. Add in higher order terms for features.
 4. Effect on temperature, sunlight of northernly facing slope amplified by slope of face. [Wikipedia][link2]
+5. Binning the elevation very successful, need to try binning other features.
 
 #####Most important features (determined from logistic regression coefficients)
 These features are probably the most important to look at for feature engineering ideas. Determined by looking at importance in decision tree classifier.<br/>
